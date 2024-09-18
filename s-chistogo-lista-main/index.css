@@ -1,0 +1,245 @@
+
+@font-face {
+    font-family: "inter";
+    src: url("fonts/interregular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "EB Garamond";
+    src: url("fonts/ebgaramondregular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.page {
+    background-color: #1e1e1e;
+    margin: auto;
+    width: 360px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 132px;
+}
+
+.header__logo {
+    width: 78px;
+    height: 15px;
+    margin: 24px 0 0 20px;
+}
+
+.header__menu {
+    margin: 0 20px 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header__menu-list {
+    margin: 0;
+    padding: 0; 
+    list-style-type: none;
+}
+
+.header__menu-item {
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-family: "inter";
+}
+
+.main {
+    text-decoration: none;
+}
+
+.header__menu-link {
+    color: #f5f5f5;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400;
+}
+
+.cover {
+    background-image: url(./images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 339px 198px;
+    overflow: hidden;
+    margin: 7px 0 30px 20px;
+}
+
+.cover__title {
+    margin: 0;
+    color: white;
+    font-size: 72px;
+    font-weight: 400;
+}
+
+.accent-span {
+    display: block;
+    font-family: "EB Garamond";
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+    margin: 0 20px 0 0;
+}
+
+.text-left {
+    margin: 0 0 0 20px;
+}
+
+.intro {
+    margin: 0 20px 38px 20px;
+}
+
+.intro__heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.intro__title {
+    margin: 0;
+    color: #cccccc;
+    font-size: 16px;
+    width: 500px;
+    font-family: "inter";
+    line-height: 120%;
+}
+
+.intro__date {
+    color: #cccccc;
+    font-size: 16px;
+    width: 200px;
+    display: flex;
+    justify-content: end;
+    font-family: "inter";
+}
+
+.intro__main-text {
+    color: #f5f5f5;
+    font-size: 400;
+    width: fit-content;
+    margin: 0 0 24px 0;
+    font-family: "inter";
+    line-height: 21.6px;
+}
+
+.reasons {
+    background-color: #fee42a;
+    padding: 40px 0 40px 0;
+    color: #131313;
+    font-family: "inter";
+}
+
+.content-section__list-accent {
+    font-weight: bold;
+}
+
+.content-section__introduction {
+    margin: 32px 20px 32px 20px;
+    font-size: 20px;
+    font-family: "inter";
+    line-height: 27px;
+}
+
+.content-section__subtitle {
+    font-size: 28px;
+}
+
+.content-section__list-item {
+    margin: 16px 20px 16px 0;  
+    line-height: 26.1px; 
+    font-size: 16px;
+}
+
+.how-to {
+    margin: 24px 0 24px 0;
+    color: #f5f5f5;
+}
+
+.cards-list {
+    padding: 0 0 0 0;
+}
+
+.card_theme_bright {
+    width: fit-content;
+    height: auto;
+    border-radius: 30px;
+    background: #fee42a;
+    padding: 20px 20px 20px 20px;
+    color: #131313;
+    margin: 32px 20px 32px 20px;
+}
+
+.card_theme_dark {
+    width: fit-content;
+    height: auto;
+    border-radius: 30px;
+    background: #343434;
+    padding: 20px 20px 20px 20px;
+    margin: 0 20px 0 20px;
+}
+
+.card__author {
+    margin-bottom: 8px;
+    display: grid;
+    grid-row: auto;
+}
+
+.card__author-photo {
+    height: 100px;
+    width: 100px;
+}
+
+.card__author-name {
+    font-family: "inter";
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+.card__title {
+    font-family: "EB Garamond";
+    font-size: 22px;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.card__text {
+    font-family: "inter";
+    font-size: 16px;
+    line-height: 21.6px;
+}
+
+footer {
+    margin: 20px 20px 20px 20px;
+    font-family: "inter";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0 0 0;
+    border-top: 1px solid#fee42a;
+}
+
+.links {
+    display: flex;
+    justify-content: left;
+}
+
+.footer__copy {
+    margin: 0;
+    color: #f5f5f5;
+}
+
+.footer__links {
+    margin-right: 20px;
+    color: #f5f5f5;
+    font-size: 14px;
+    text-decoration: none;
+}
